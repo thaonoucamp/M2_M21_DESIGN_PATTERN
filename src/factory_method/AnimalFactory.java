@@ -2,7 +2,7 @@ package factory_method;
 
 public class AnimalFactory {
     public Animal getAnimal(String type){
-        if ("canine".equals(type)){
+        if ("dataType".equals(type)){
             return new Dog();
         }
         else {
