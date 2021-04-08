@@ -2,6 +2,7 @@ package builder;
 
 public class BuilderPattern {
 
+
     interface IPersonBuilder{
         Person initName(String name);
         Person initId(int id);
